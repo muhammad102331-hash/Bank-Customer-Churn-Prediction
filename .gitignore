@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data - keep raw data out of version control if large
+# Uncomment below lines if you don't want to push data files
+# data/raw/
+# data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Reports (generated outputs)
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.svg
